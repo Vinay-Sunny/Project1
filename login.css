@@ -1,0 +1,37 @@
+body {
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 32px;
+	color: dodgerblue;
+	background: linear-gradient(blue, cyan, mediumseagreen);
+	font-family:  'Crimson Text', serif ;
+}
+
+.login-layout {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	border: 1px solid #d9d9d9;
+	box-shadow: 6px 2px 14px 0px #d9d9d9;
+	max-width: 400px;
+	width: 400px;
+	max-height: 400px;
+	height: 400px;
+	background-color: white;
+}
+
+.login-layout>.app-name {
+	padding: 23px;
+}
+
+.login-layout>input {
+	margin: 12px;
+}
+
+#js-name-err-msg, #js-password-err-msg{
+	color: red;
+	font-size: 15px;
+}
